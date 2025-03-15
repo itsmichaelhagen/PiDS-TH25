@@ -11,22 +11,16 @@ Turn a raspberry pi into a NIDS and threat hunting tool, capable of connecting t
 5. [Screenshots] (#screenshots)
 6. [Author] (#author)
 
---
-
 ## Project Overview
 Using a Raspberry Pi (Raspberry Pi 4, Model B from CanaKit), configuring and adding enhancements to create a fully functional NIDS and threat hunter. 
 
 Pre-requisites to begin the project include a Raspberry Pi, 256GB storage (external MicroSD), 8GB RAM, and WiFi adapter. The setup is headless and meant to be able to connect to via SSH from any device on the network. Connected to GUI for remote desktop using RealVNC. Reconfigure LAN settings if moving to another network. 
-
---
 
 ## Hardware Used
 1) **CanaKit Raspberry Pi 4**
 2) **256GB MicroSD Card**
 3) **USB WiFi Adapter (Monitor Mode)**
 4) **Ethernet Cable (Wired Traffic Analysis)**
-
---
 
 ## Suricata Installation Guide
 ### 1. Update OS and Install Dependencies
@@ -57,21 +51,17 @@ sudo ldconfig
 ``` bash
 suricata -v
 ```
---
 ## Zeek and ELK Stack
 
 TBA
 
---
 
 ## Screenshots
 
 TBA
 
---
 
 ## Author
 
 TBA
 
---
